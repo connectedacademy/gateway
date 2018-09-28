@@ -51,6 +51,7 @@ function initTwitterReceiver () {
   })
 
   twitterReceiver.start()
+  twitterReceiver.backlog()
 }
 
 module.exports = async function () {
